@@ -16,7 +16,7 @@
 
 To create groups
 ```
-$ sudo groupadd -g group-name     Example: sudo groupadd -g SCAgroup1      
+$ sudo groupadd group-name     Example: sudo groupadd SCAgroup1      
 ```
 Use this to create other two groups ```SCAgroup2``` and ```SCAgroup3```
 
@@ -27,7 +27,7 @@ To create a users
 $ sudo useradd username    Example: sudo useradd karen
 ```
 Use this to create other users. A total of 15 users.
-![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group1-add.PNG)
+![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group1-users.PNG)
 ![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group2-users.PNG)
 ![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group3-users.PNG)
 
