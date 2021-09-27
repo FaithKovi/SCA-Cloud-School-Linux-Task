@@ -13,7 +13,16 @@
 
 ## Task Commands
 * Create 3 groups and 15 users
-To create a user
+
+To create groups
+```
+$ sudo groupadd -g group-name     Example: sudo groupadd -g SCAgroup1      
+```
+Use this to create other two groups ```SCAgroup2``` and ```SCAgroup3```
+
+![Create Groups](https://github.com/FaithKovi/sca-operation-images/blob/main/groups.PNG)
+
+To create a users
 ```
 $ sudo useradd username    Example: sudo useradd karen
 ```
@@ -22,13 +31,6 @@ Use this to create other users. A total of 15 users.
 ![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group2-users.PNG)
 ![Create Users](https://github.com/FaithKovi/sca-operation-images/blob/main/group3-users.PNG)
 
-To create groups,
-```
-$ sudo groupadd -g group-name     Example: sudo groupadd -g SCAgroup1      
-```
-Use this to create other two groups ```SCAgroup2``` and ```SCAgroup3```
-
-![Create Groups](https://github.com/FaithKovi/sca-operation-images/blob/main/groups.PNG)
 
 * Assign the 15 users across the 3 groups
 To add user to a group
