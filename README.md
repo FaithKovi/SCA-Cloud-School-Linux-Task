@@ -45,6 +45,7 @@ Add each user to a group, adding users 1-5 in ```SCAgroup1```, users 6-10 in ```
 ![all](https://github.com/FaithKovi/sca-operation-images/blob/main/all-groups.PNG)
 * Demonstrate that user(s) in a group cannot access files/folders that belong to another group unless they are added to that group
 I created files for each group and assigned them to the respective groups
+
 ```
 $ sudo chgrp SCAgroup1 SCAgroup1.txt
 ```
