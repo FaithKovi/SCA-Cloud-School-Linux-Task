@@ -24,7 +24,7 @@ Use this to create other users. A total of 15 users.
 
 To create groups,
 ```
-$ sudo groupadd -g group-ID group-name     Example: sudo groupadd -g SCAgroup1      
+$ sudo groupadd -g group-name     Example: sudo groupadd -g SCAgroup1      
 ```
 Use this to create other two groups ```SCAgroup2``` and ```SCAgroup3```
 
